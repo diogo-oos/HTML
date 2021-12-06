@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lhama</title>
+    <!--link para arquivo css-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--link para arquivo javascript-->
+    <script type="module" src="js/index.js" defer></script>
+    <!--pacote de icons-->
+    <script src="https://kit.fontawesome.com/9c4140a166.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--cabeçalho - início-->
+    <header>
+
+      <!--menu/menu mobile - início-->
+        <nav id="navegacao" class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <div class="container-fluid">
+              <!--<a class="navbar-brand page" href="#">Lhama</a>-->
+              <button class="navbar-toggler button-menu-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul id="lista" class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#linhaApresentacao">perfil</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#linhaProjetos">projetos</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#linhaExperiencias">experiência</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#linhaRepositorios">repositórios github</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#linhaRecomendacoes">recomendações</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pesquisa.html">pesquisar</a>
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+            
+          </nav>
+        <!--menu/menu mobile - fim-->
+
+    </header>
+  <!--cabeçalho - fim-->
+
+  <!--conteúdo-->
+    <main class="container conteudo" >
+
+      <!--linha de apresentação - inicio-->
+        <section id="linhaApresentacao" class="row apresentacao" >
+
+          <!--Prenchido com js-->
+
+        </section>
+      <!--linha de apresentação - fim-->
+
+      <!--linha experiências - início--> 
+        <section id="linhaExperiencias" class="row experiencias" > 
+
+          <!--título - início-->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <h3>Experiências</h3>
+            </div>
+          <!--título - fim-->
+          
+          <!--experiências - início--> 
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="experiencias-conteudo">
+                <img src="imgs/grupoABC.png" alt="Grupo ABC">
+                <h4>Jovem Aprendiz/Função: realizar diversas atividades 
+                  em um centro de distribuição
+                </h4>
+                <p>Atividades de distribuição de produtos e 
+                  de fiscalização. Ex: criação de manifestos de saída 
+                  de mercadorias
+                </p>
+                <h6>Período: 03/2021 até o momento</h6>
+              </div>
+            </div>
+
+          <!--botão carregar mais experiências - início-->
+            <!--<section class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="botaoMais">
+                  <button id="maisExperiencias" type="button" class="btn btn-secondary"><i class="fas fa-plus"></i> Carregar mais experiencias</button>
+                </div>
+              </div>
+            </section>-->
+          <!--botão carregar mais experiências - fim-->
+
+        </section>
+      <!--linha experiências - fim-->   
+
+      <!--linha repositórios github - início-->
+        <section id="linhaRepositorios" class="row repositorios-github_area">
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div id="repositorios" class="row repositorios-github">
+      
+              <!--título - iníio-->
+                <h3>Repositórios GitHub</h3>
+              <!--título - iníio-->  
+      
+            </div>
+      
+          </div>
+
+        </section>
+
+        <!--botão carregar mais repositórios - iníio-->
+          <!--<section class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="botaoMais">
+                <button id="maisRepositorios" type="button" class="btn btn-secondary"><i class="fas fa-plus"></i> Carregar mais reposítórios</button>
+              </div>
+            </div>
+          </section>-->
+        <!--botão carregar mais repositórios - fim--> 
+
+      <!--linha repositórios github - fim-->
+
+      <!--linha recomendação de conteúdo - início-->
+        <section id="linhaRecomendacoes" class="row recomendacoes">
+
+          <!--título - início-->
+            <h3>Recomendação de conteúdo</h3>
+          <!--título - fim-->
+
+          <!--recomendações - início-->
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+              <div class="recomendacoes-conteudo">
+                <iframe width="250" height="165" src="https://www.youtube.com/embed/3oSIqIqzN3M" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p><b>5 MINUTOS DE HTML PARA INICIAR EM PROGRAMAÇÃO: </b>Dicas de html</p>
+                <p><b>Diretor: </b>Rafaella Ballerini <br><b>Roteirista: </b>Rafaella Ballerini <b>Estreia: </b>2020</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+              <div class="recomendacoes-conteudo">
+                <iframe width="250" height="165" src="https://www.youtube.com/embed/LWU2OR19ZG4" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p><b>O QUE É CSS? (SELETORES, PROPRIEDADES E VALORES): </b>Conhecendo um pouco sobre css</p>
+                <p><b>Diretor: </b>Rafaella Ballerini <br><b>Roteirista: </b>Rafaella Ballerini <b>Estreia: </b>2020</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+              <div class="recomendacoes-conteudo">
+                <iframe width="250" height="165" src="https://www.youtube.com/embed/NaVSbnnV75Q" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p><b>O que é JavaScript? </b>Explicando um pouco do que é JavaScript</p>
+                <p><b>Diretor: </b>Alura Cursos Online<br><b>Roteirista: </b>Hipsters ponto tube <b>Estreia: </b>2020</p>
+              </div>
+            </div>
+          <!--recomendações - fim-->  
+
+        </section>
+
+        <!--botão carregar mais conteúdos - início-->
+          <!--<section class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="botaoMais">
+                <button id="maisConteudos" type="button" class="btn btn-secondary"><i class="fas fa-plus"></i> Carregar mais conteúdos</button>
+              </div>
+            </div>
+          </section>-->
+        <!--botão carregar mais conteúdos - fim-->
+
+      <!--linha recomendação de conteúdo - fim-->
+
+    </main>
+  <!--conteúdo - fim-->
+
+  <!--rodapé - início-->
+    <footer class="rodape">
+      <!--linha copyright e da logo - início-->
+        <section class="row copyright-logo">
+
+          <!--copyright - início-->
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+              <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas</p>
+            </div>
+          <!--copyright - fim-->
+
+          <!--logo - início-->
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+              <a class="navbar-brand page" href="#">Lhama</a>
+            </div>
+          <!--logo - fim-->
+
+        </section>
+      <!--linha copyright e da logo - fim-->
+    
+    </footer>
+  <!--rodapé - fim-->
+
+  <!--js bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+/*propiedades universais - início*/
+main{
+    margin-top: 40px;
+}
+
+p{
+    font-size: 0.8rem;
+}
+/*propiedades universais - fim*/
+
+/*cabeçalho - início*/
+#navegacao{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#botaoPesquisa{
+    color: #9A9A9A;
+    transition: all 0.4 ease-out;
+}
+
+#botaoPesquisa:hover{
+    color: #4A4A4B;
+}
+/*cabeçalho - fim*/
+
+/*corpo - início*/
+
+#resultadoPesquisa{
+    align-items: center;
+}
+.card{
+    margin: 30px;
+}
+
+.card ul{
+    margin: 10px;
+}
+
+.card a{
+    margin: 10px;
+    margin-left: 93px;
+}
+/*corpo - fim*/
+
+/*rodapé - início*/
+.copyright-logo{
+    background-color: #bbb8b8;
+    height: 90px;
+    padding: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .copyright-logo{
+        padding-top: 10px;
+    }
+}
+
+.page{
+    color: black;
+}
+/*rodapé - fim*/
