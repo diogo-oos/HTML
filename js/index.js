@@ -36,9 +36,9 @@ async function exibirDados() {
           Sistemas de informação.
           </p>
           <h4>Redes Sociais</h4>
-          <p class="icon-redes-sociais"><a href="${dadosUser.data.url}"><i class="fab fa-github fa-2x"></i></a></p>
-          <p class="icon-redes-sociais"><a href="www.linkedin.com/in/diogo-m-gomes-12987a1b5"><i class="fab fa-linkedin fa-2x"></i></a></p>
-          <p class="icon-redes-sociais"><a href="https://www.instagram.com/invites/contact/?i=1ak9k75jp7ppd&utm_content=3xz5wxp"><i class="fab fa-instagram fa-2x"></i></a></p>
+          <p class="icon-redes-sociais"><a href="${dadosUser.data.html_url}" target="_blank"><i class="fab fa-github fa-2x"></i></a></p>
+          <p class="icon-redes-sociais"><a href="https://www.linkedin.com/in/diogo-m-gomes-12987a1b5" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></p>
+          <p class="icon-redes-sociais"><a href="https://www.instagram.com/invites/contact/?i=1ak9k75jp7ppd&utm_content=3xz5wxp" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></p>
           </div>
 
       </div>
